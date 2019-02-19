@@ -20,4 +20,9 @@ func main() {
     for key := range arr {
         fmt.Println(key)
     }
+    fmt.Println()
+    // display keys and value
+    for i, each := range arr {
+        fmt.Println(i, each)
+    }
 }
