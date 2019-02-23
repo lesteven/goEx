@@ -8,4 +8,7 @@ func main() {
     fmt.Printf("%v, %v, %v\n", val, addy, *addy)
     *addy = 100
     fmt.Printf("%v, %v, %v\n", val, addy, *addy)
+
+    point := &val
+    fmt.Printf("%v, %v, %v\n", point, &point, *point)
 }
